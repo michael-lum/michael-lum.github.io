@@ -1,6 +1,68 @@
-
 body {
-	margin: 0;
-	background: #eeeeee;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Lato', sans-serif;
+	margin:0;
+}
+
+
+#navbar {
+	height: 110px;
+	width: 100%;
+	box-shadow: 0px 2px 8px #888888;
+	z-index: 10;
+	position: fixed;
+	display: flex;
+	background: white;
+}
+
+#name {
+	width: 40%;
+	font-size: 42px;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+	margin-bottom: 2.5%;
+	text-decoration: underline;
+	text-decoration-color: #FCBF49;
+}
+
+
+
+#button-container {
+	width: 250px;
+	position: absolute;
+	overflow: hidden;
+	display: flex;
+	right: 0px;
+	margin-top: 3.5%;
+	margin-left: 2.5%;
+	margin-bottom: 2.5%
+
+}
+
+.button {
+	font-size: 18px;
+	padding: 1% 1% 1% 1%;
+	margin-right: 10%;
+
+}
+.button:hover {
+	color: #FCBF49;
+	cursor: pointer;
+}
+
+img {
+	width: 100%;
+	margin-top: 110px;
+}
+
+#bio {
+	font-size: 42px;
+	margin-left: 2.5%;
+}
+#about {
+	font-size: 36px;
+}
+.dec {
+	text-decoration: underline;
+	color: #FCBF49;
+	text-decoration-color: black;
 }
