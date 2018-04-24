@@ -4,6 +4,7 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"> </script>
 		<title>Michael Lum</title>
 
 	</head>
@@ -12,14 +13,15 @@
 		<div id="navbar">
 			<b id="name">Michael Lum</b>
 			<div id="button-container">
-				<a href="#bio" class="button">about</a>
-				<a href="#blog" class="button">blog</a>
-				<a class="button">contact</a>
+				<a href="#bio" class="button biobutton">about</a>
+				<a href="#blog" class="button blogbutton">blog</a>
+				<a class="button contactbutton">contact</a>
 			</div>
 		</div>
 		<img id="profile-picture" src="assets/img/DSC_0007.JPG">
+		<div class="divider" id="bio"></div>
 		<main id="bio-container">
-			<div id="bio">
+			<div id="biosection">
 				<h2>Welcome!</h2>
 				<p>I’m a second-year student at University of California, Berkeley who is also from the Bay Area.  I study Computer Science.</p>
 				<div id="about">
@@ -30,13 +32,13 @@
 				</div>
 			</div>
 		</main>
-		<div class="divider"></div>
+		<div class="divider" id="blog"></div>
 		<main id="blog-container">
-			<div id="blog">
+			<div id="blogsection">
 				<h2>Blog!</h2>
 				<p>Read about my life and my adventures :)</p>
-				<div id="about">
-					<h3 class="dec">LA Trip</h3>
+				<div id="blog-about">
+					<h3 class="dec">LA Trip 12/26/17.</h3>
 					<p>Los Angeles was my first trip during Winter Break with my friends.  It was very spontaneous and I didn't decide to go until a couple days before.  This was to cure some of the seperation anxiety for my friends in college, who I would not see for a whole 2 weeks.  For this 5 day trip, we ate tons, took lots of pictures, and visited many beaches.  </p>
 
 					<p>Before I visited Los Angeles, I hadn’t heard very good things about LA. I was told the traffic is a nightmare and that everyone there is superficial, among many other not-so-good things, and I wasn’t really sure what to expect from the city. But once I was there, I was pleasantly surprised by how much I LOVED Los Angeles.</p>
@@ -53,7 +55,16 @@
 		</main>
 
 		<div class="divider"></div>
+
+		<main id="contact-container">
+			<div id="contact">
+				<h2>Contact Me!</h2>
+				<div id="contact-about">
+
+				</div>
+			</div>
+		</main>
+
 	</body>
-	<script src="http://code.jquery.com/jquery-1.11.3.min.js"> </script>
 	<script src="assets/js/script.js"></script>
 </html>

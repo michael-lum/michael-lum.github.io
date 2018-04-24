@@ -60,7 +60,7 @@ body {
 
 }
 
-#bio {
+#biosection {
 	font-size: 36px;
 	margin-left: 2.5%;
 }
@@ -77,10 +77,10 @@ body {
 	width: 100%;
 	height: 110px;
 	background-color: #482C3D;
-	margin-top: 0px;
+	margin-top: -5px;
 }
 
-#blog {
+#blogsection {
 	font-size: 36px;
 	margin-left: 2.5%;
 }
@@ -98,4 +98,10 @@ body {
 .item {
 	height: 250px;
 	margin-right: 10px;
+}
+
+
+#contact {
+	font-size: 36px;
+	margin-left: 2.5%;
 }
