@@ -101,7 +101,11 @@ body {
 }
 
 
-#contact {
+#contact-container {
 	font-size: 36px;
 	margin-left: 2.5%;
+}
+
+#contact-about {
+	font-size: 30px;
 }
