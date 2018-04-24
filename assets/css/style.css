@@ -53,9 +53,11 @@ body {
 	cursor: pointer;
 }
 
-img {
+#profile-picture {
 	width: 100%;
 	margin-top: 110px;
+	margin-bottom: 0px
+
 }
 
 #bio {
@@ -69,4 +71,31 @@ img {
 	text-decoration: underline;
 	color: #FCBF49;
 	text-decoration-color: black;
+}
+
+.divider {
+	width: 100%;
+	height: 110px;
+	background-color: #482C3D;
+	margin-top: 0px;
+}
+
+#blog {
+	font-size: 36px;
+	margin-left: 2.5%;
+}
+#blog-about {
+	font-size: 18px;
+}
+
+#pic-container {
+	display: flex;
+	overflow: scroll;
+	height: 50%;
+	margin-bottom: 10%;
+	margin-right: 2.5%;
+}
+.item {
+	height: 250px;
+	margin-right: 10px;
 }
