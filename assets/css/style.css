@@ -23,7 +23,9 @@ body {
 	text-decoration: underline;
 	text-decoration-color: #FCBF49;
 }
-
+#name:hover {
+	cursor: pointer;
+}
 
 
 #button-container {
@@ -42,6 +44,8 @@ body {
 	font-size: 18px;
 	padding: 1% 1% 1% 1%;
 	margin-right: 10%;
+	color: black;
+	text-decoration: none;
 
 }
 .button:hover {
@@ -55,11 +59,11 @@ img {
 }
 
 #bio {
-	font-size: 42px;
+	font-size: 36px;
 	margin-left: 2.5%;
 }
 #about {
-	font-size: 36px;
+	font-size: 30px;
 }
 .dec {
 	text-decoration: underline;
