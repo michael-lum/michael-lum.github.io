@@ -121,5 +121,13 @@ body {
 .logo {
 	height: 200px;
 	margin-right: 10px;
+	opacity: 0.5;
+}
+.logo:hover {
+	cursor: pointer;
 }
 
+.highlighted {
+	text-decoration: underline;
+	text-decoration-color: #FCBF49;
+}
